@@ -110,6 +110,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://github.com/VenaCzPlay/MineMove-bot/blob/MineMove-bot/extension.js', extend);
+    $.getScript('https://rawgit.com/VenaCzPlay/MineMove-bot/MineMove-bot/extension.js', extend);
 
 }).call(this);
