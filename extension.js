@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "MineMoveBot",
         language: "english",
-        chatLink: "file:///C:/Users/PC-DESKTOP/Desktop/basicBot-customization-master/lang/en.json",
+        chatLink: "https://github.com/VenaCzPlay/MineMove-bot/blob/MineMove-bot/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
@@ -89,7 +89,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Vítej na plug.dj Minecraft Serveru MineMove",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -110,6 +110,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('file:///C:/Users/PC-DESKTOP/Desktop/basicBot-customization-master/extension.user.js', extend);
+    $.getScript('https://github.com/VenaCzPlay/MineMove-bot/blob/MineMove-bot/extension.js', extend);
 
 }).call(this);
