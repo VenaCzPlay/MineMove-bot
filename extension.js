@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "MineMoveBot",
         language: "english",
-        chatLink: "https://github.com/VenaCzPlay/MineMove-bot/blob/MineMove-bot/lang/en.json",
+        chatLink: "https://rawgit.com/VenaCzPlay/MineMove-bot/MineMove-bot/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
